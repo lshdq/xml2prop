@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+  <qresource prefix="/">
+    <file alias="icons/xml2prop.svg">xml2prop.svg</file>
+  </qresource>
+</RCC>

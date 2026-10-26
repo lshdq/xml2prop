@@ -1,0 +1,26 @@
+# CMake build trees
+build/
+build2/
+cmake-build-*/
+
+# Qt Creator / Visual Studio files
+.qtcreator/
+*.user
+.vs/
+*.suo
+*.vcxproj.user
+
+# IDE and editor metadata
+.idea/
+.vscode/
+
+# Platform and local build artifacts
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.o
+*.a
+*.lib
+*.log

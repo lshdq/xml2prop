@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>XML to Properties</title>
+  <desc>A dark blue technology icon with cyan XML brackets, a purple conversion arrow, and green key-value properties.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10264b"/>
+      <stop offset="1" stop-color="#071329"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#63f4ff"/>
+      <stop offset="1" stop-color="#12b8e8"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9b6cff"/>
+      <stop offset="1" stop-color="#d54dff"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a8ff75"/>
+      <stop offset="1" stop-color="#36dc86"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Deep blue rounded tile. -->
+  <rect x="8" y="8" width="240" height="240" rx="42" fill="url(#background)" stroke="#1b4771" stroke-width="4"/>
+  <path d="M38 34h180M27 222h202" stroke="#286189" stroke-width="2" opacity=".42"/>
+
+  <!-- XML source symbol. -->
+  <g fill="none" stroke="url(#cyan)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M74 54 40 88l34 34"/>
+    <path d="M182 54l34 34-34 34"/>
+  </g>
+
+  <!-- Conversion arrow. -->
+  <path d="M94 142h70" fill="none" stroke="url(#purple)" stroke-width="12" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="m151 122 25 20-25 20" fill="none" stroke="#d95dff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+
+  <!-- Properties key/value rows. -->
+  <g fill="none" stroke="url(#green)" stroke-linecap="round" filter="url(#glow)">
+    <path d="M42 169h67" stroke-width="10"/>
+    <path d="M42 195h51" stroke-width="10"/>
+    <path d="M42 221h79" stroke-width="10"/>
+    <path d="M133 169h80" stroke-width="10"/>
+    <path d="M117 195h96" stroke-width="10"/>
+    <path d="M145 221h68" stroke-width="10"/>
+  </g>
+  <g fill="#d5ff9c">
+    <circle cx="124" cy="169" r="4"/>
+    <circle cx="108" cy="195" r="4"/>
+    <circle cx="136" cy="221" r="4"/>
+  </g>
+</svg>
